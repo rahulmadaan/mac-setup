@@ -12,24 +12,19 @@ coreUtils=(
     node
     watch
     ack
-    hugo
     heroku
     autojump
     scala
     go
-    cmake
     kubernetes-cli
     tmux
-    minikube
+    flycut
+    Vault
+    scala
+    spark-shell
 )
 
 for i in "${coreUtils[@]}"; do
-  echo "$i - Enter y to install else press enter"
-  read -r response
-  if [[ $response == "y" ]]; then
     echo "Installing $i";
     brew install "$i"
-  else
-    echo "Skipped $i";
-  fi
 done

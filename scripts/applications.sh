@@ -7,26 +7,24 @@ brew tap homebrew/cask-versions
 
 applications=(
   google-chrome
-  virtualbox
   iterm2
   vlc
   visual-studio-code
   slack
   adoptopenjdk
-  intellij-idea-ce
   zoomus
   alacritty
-  postman
   docker
+  firefox
+  evernote
+  sublime-text
+  flycut
+  miniconda
+  adoptopenjdk8
+  ngrok
 )
 
 for i in "${applications[@]}"; do
-  echo "$i - Enter y to install else press enter"
-  read -r response
-  if [[ $response == "y" ]]; then
     echo "Installing $i";
     brew cask install "$i"
-  else
-    echo "Skipped $i";
-  fi
 done

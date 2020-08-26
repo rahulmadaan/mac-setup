@@ -20,5 +20,9 @@ source ./scripts/vscode_plugins.sh
 
 source ./scripts/zshrc.sh
 
+echo "Installing ngrok"
+curl https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-darwin-amd64.zip >ngrok.zip
+unzip ngrok.zip
+
 echo "Installation completed"
 echo "Thank you"
