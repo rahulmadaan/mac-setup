@@ -11,7 +11,6 @@ applications=(
   vlc
   visual-studio-code
   slack
-  adoptopenjdk
   zoomus
   alacritty
   docker
@@ -19,8 +18,6 @@ applications=(
   evernote
   sublime-text
   flycut
-  miniconda
-  adoptopenjdk8
   ngrok
 )
 
