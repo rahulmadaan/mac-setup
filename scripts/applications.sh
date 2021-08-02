@@ -26,5 +26,5 @@ applications=(
 
 for i in "${applications[@]}"; do
     echo "Installing $i";
-    brew cask install "$i"
+    brew install --cask "$i"
 done
