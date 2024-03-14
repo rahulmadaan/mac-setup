@@ -14,11 +14,8 @@ applications=(
   zoomus
   alacritty
   docker
-  firefox
-  evernote
   sublime-text
   flycut
-  ngrok
 )
 
 for i in "${applications[@]}"; do

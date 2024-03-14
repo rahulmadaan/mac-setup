@@ -12,16 +12,10 @@ coreUtils=(
     node
     watch
     ack
-    heroku
     autojump
-    scala
     go
     kubernetes-cli
     tmux
-    flycut
-    Vault
-    scala
-    spark-shell
 )
 
 for i in "${coreUtils[@]}"; do
